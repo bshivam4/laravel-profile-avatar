@@ -43,7 +43,7 @@ class User extends Authenticatable
         $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
 
         //setting path where image to be stored
-        $destinationPath = public_path('profile_pictures');
+        $destinationPath = public_path('storage/profile_pictures');
 
         //make an Invention Image object to perform various image processing functions
         $img = Image::make($image->getRealPath());
@@ -92,7 +92,7 @@ class User extends Authenticatable
         $img->save($destinationPath . '/' . $name);
 
         $user = User::find(Auth::id());
-        $picture=asset('profile_pictures') . '/' . $name;
+        $picture=asset('storage/profile_pictures') . '/' . $name;
         $user->picture = $picture;
         $user->save();
         Session::put('pictureicon', $picture);
