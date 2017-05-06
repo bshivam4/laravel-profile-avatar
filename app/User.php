@@ -62,7 +62,7 @@ class User extends Authenticatable
         //getting the picture name which is to be cropped
         $src = $request->imgName;
         //make an Invention Image object to perform various image processing functions
-        $img = Image::make('profile_pictures/' . $src);
+        $img = Image::make('storage/profile_pictures/' . $src);
         //where pictures are to be saved
             $destinationPath = public_path('storage/profile_pictures');
 
