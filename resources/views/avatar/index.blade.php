@@ -33,6 +33,7 @@
 
 
                         </div>
+
                         <div class="row">
                             <div id="preview-pane">
                                 <div class="preview-container">
