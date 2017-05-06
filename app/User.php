@@ -64,7 +64,7 @@ class User extends Authenticatable
         //make an Invention Image object to perform various image processing functions
         $img = Image::make('profile_pictures/' . $src);
         //where pictures are to be saved
-            $destinationPath = public_path('/profile_pictures');
+            $destinationPath = public_path('storage/profile_pictures');
 
         //if user selects crop area
         if((($request->height)>0) && (($request->width)>0)) {

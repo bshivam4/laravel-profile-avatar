@@ -27,7 +27,7 @@
                         <div class="container text-center">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <img class="img-responsive" src="{{asset('profile_pictures')}}/{{Session::get('imageName')}}" id="target" width="1000px"/>
+                                    <img class="img-responsive" src="{{asset('storage/profile_pictures')}}/{{Session::get('imageName')}}" id="target" width="1000px"/>
                                 </div>
                             </div>
 
@@ -36,7 +36,7 @@
                         <div class="row">
                             <div id="preview-pane">
                                 <div class="preview-container">
-                                    <img id="myImg" src="{{asset('profile_pictures')}}/{{Session::get('imageName')}}" class="jcrop-preview" alt="Preview" />
+                                    <img id="myImg" src="{{asset('storage/profile_pictures')}}/{{Session::get('imageName')}}" class="jcrop-preview" alt="Preview" />
                                 </div>
                             </div>
                         </div>
