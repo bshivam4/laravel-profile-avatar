@@ -19,4 +19,4 @@ The application provides User the following features : -
 
 The working Project can be find here : -
 
-	-> http://mysterious-forest-79037.herokuapp.com/
+	http://mysterious-forest-79037.herokuapp.com/
