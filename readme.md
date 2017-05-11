@@ -10,7 +10,7 @@ The application provides User the following features : -
 		
         -> User can Upload a photo in JPEG/JPG/PNG format.
         -> User can crop his/her photo .
-        -> If not cropped, the dimensions area utomatically adjusted.
+        -> If not cropped, the dimensions are automatically adjusted.
         
 3. User can set some other profile picture, using the same steps as above.
 
@@ -19,4 +19,4 @@ The application provides User the following features : -
 
 The working Project can be find here : -
 
-http://mysterious-forest-79037.herokuapp.com/
+	-> http://mysterious-forest-79037.herokuapp.com/
